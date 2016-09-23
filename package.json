@@ -1,0 +1,25 @@
+{
+  "name": "packages-download-stats",
+  "version": "1.0.0",
+  "description": "Get the daily/weekly/monthly download stats of npm packages",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "istanbul": "^0.4.5",
+    "load-pkg": "^3.0.1",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:coverage": "istanbul cover _mocha"
+  },
+  "author": "",
+  "license": "MIT"
+}
