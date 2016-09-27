@@ -6,17 +6,21 @@ describe('Promises', function() {
     it('Invalid single package name', function(done) {
       packagesDownloadStats.fetchAllStats('')
         .then(function(stats) {
-          return done();
+          return done(new Error('This test should throw an error'));
         })
-        .catch(done);
+        .catch(err => {
+          done();
+        });
     });
 
     it('Invalid package name in array', function(done) {
       packagesDownloadStats.fetchAllStats([null, 'request', 'express'])
         .then(function(stats) {
-          return done();
+          return done(new Error('This test should throw an error'));
         })
-        .catch(done);
+        .catch(err => {
+          done();
+        });
     });
 
     it('Single existing package', function(done) {
