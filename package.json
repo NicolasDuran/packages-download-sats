@@ -20,7 +20,7 @@
   "scripts": {
     "test": "mocha",
     "test:coverage": "istanbul cover _mocha",
-    "test:coverall" : "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls.js"
+    "test:coveralls" : "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls.js"
   },
   "author": "Nicolas DURAN <nicolas.duran.gm@gmail.com>",
   "license": "MIT"
