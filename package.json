@@ -15,12 +15,13 @@
     "chai": "^3.5.0",
     "coveralls": "^2.11.14",
     "istanbul": "^0.4.5",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "mocha-lcov-reporter": "^1.2.0"
   },
   "scripts": {
     "test": "mocha",
     "test:coverage": "istanbul cover _mocha",
-    "test:coveralls" : "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls.js"
+    "test:coveralls": "npm run test:coverage -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "author": "Nicolas DURAN <nicolas.duran.gm@gmail.com>",
   "license": "MIT"

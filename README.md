@@ -2,6 +2,8 @@ Packages download statistics
 ============================
 > Get daily/weekly/monthly download stats of npm packages
 
+[![Build Status](https://travis-ci.org/NicolasDuran/packages-download-stats.svg?branch=master)](https://travis-ci.org/NicolasDuran/packages-download-stats)
+[![Coverage Status](https://coveralls.io/repos/github/NicolasDuran/packages-download-stats/badge.svg?branch=master)](https://coveralls.io/github/NicolasDuran/packages-download-stats?branch=master)
 
 # Installation
 
