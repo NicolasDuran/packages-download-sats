@@ -1,4 +1,4 @@
-const packagesDownloadStats = require('./../index');
+const packagesDownloadStats = require('./../../index');
 
 describe('Promises', function() {
 
